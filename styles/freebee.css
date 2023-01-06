@@ -91,6 +91,7 @@ ul li{
 }
 .amount-box2{
     border: 2px solid #FF5959;
+    background-color: #ff595915;
     border-radius: 5px;
 }
 
@@ -176,4 +177,60 @@ ul li{
 .donate-gallery-content .primary-btn{
     font-size: 15px;
     padding: 10px 22px;
+}
+
+/* newsletter section css start */
+.newsletter{
+    
+}
+.newsletter-content{
+    text-align: center;
+    padding: 0 360px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.newsletter-content .section-title{
+    font-size: 35px;
+}
+.newsletter-content .section-description{
+    font-size: 14px;
+}
+.newsletter-form{
+    background: rgba(16, 240, 83, 0.363);
+    width: 60%;
+    margin: 0 auto;
+    padding: 55px 100px;
+    text-align: center;
+}
+.newsletter-form input[type="email"]{
+    padding: 7px 10px;
+    background-color: #8682828e;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    
+}
+.newsletter-form input[type="submit"]{
+    background-color: #FF5959;
+    padding: 7px 20px;
+    border: 0;
+    color: white;
+    margin-left: -5px;
+    border-radius: 0 4px 4px 0;
+}
+
+/* footer section css start  */
+footer{
+    margin-top: 100px;
+    padding: 35px 0;
+    text-align: center;
+    background: #0B0D17;
+    color: #fff;
+}
+.copyrighter{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.copyright-text{
+    font-size: 11px;
 }
