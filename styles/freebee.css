@@ -154,6 +154,26 @@ ul li{
 }
 
 /* !-- donate gallery section css start  --> */
-.donate-gellary{
+.donate-gallery{
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    padding: 0 150px;
+    
+}
+.donate-gallery-content{
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.donate-gallery-content .section-title{
+    font-size: 36px;
+}
+.donate-gallery img{
+    width: 47%;
+    border-radius: 3px;
+}
+.donate-gallery-content .primary-btn{
+    font-size: 15px;
+    padding: 10px 22px;
 }
