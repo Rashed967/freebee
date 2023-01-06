@@ -114,3 +114,46 @@ ul li{
 .donate-collect .donate-msg{
     color: #707070ad;
 }
+
+/* donate plane css start  */
+.donane-plane-header{
+    margin: 60px 0 30px;
+    text-align: center;
+    padding: 0 300px;
+}
+
+.donane-plane-header .section-title{
+    font-size: 40px;
+}
+.donate-plane-content{
+    display: flex;
+    margin-top: 70px;
+    gap: 20px;
+    padding: 0 150px;
+}
+.plane{
+    background-color: #707070cb;
+    padding: 50px 15px 25px;
+    border-radius: 5px;
+}
+.plane .section-title{
+    font-size: 20px;
+    margin: 20px 0 15px;
+}
+.plane .section-description{
+    font-size:  15px;
+}
+.plane-1{
+    background: rgba(79, 157, 166, 0.1);
+}
+.plane-2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.plane-3{
+    background: rgba(16, 240, 83, 0.363);
+}
+
+/* !-- donate gallery section css start  --> */
+.donate-gellary{
+    display: flex;
+}
